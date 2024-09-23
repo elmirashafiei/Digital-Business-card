@@ -9,8 +9,9 @@ body {
 
 .card {
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 
     padding: 20px;
     display: flex;
@@ -19,8 +20,9 @@ body {
 
     text-align: center;
 
-    background: #e9c3ff;
+    background: #050405;
     color: #1c0c30;
+    border: 50px;
     border-bottom: 6px solid #723ec4;
     border-right: 6px solid #723ec4;
     border-left: 6px solid #723ec4;
