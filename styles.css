@@ -44,3 +44,8 @@ body {
 .card a:hover{
     color:blue;
 }
+
+.space{
+    margin-top: 70px;
+
+}
