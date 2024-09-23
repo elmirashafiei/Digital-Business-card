@@ -5,6 +5,16 @@ body {
 
 .avatar {
     width: 150px;
+    border-style: outset;
+    border-radius: 20px;
+    padding-top: 2px ;
+    padding-bottom: 2px;
+    box-shadow: 1px 3px gray;
+    transition: all .2s;
+    
+}
+.avatar:hover{
+    transform:rotateZ(360deg);
 }
 
 .card {
@@ -16,11 +26,10 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
-    
 
     text-align: center;
 
-    background: #050405;
+    background: #ffdcff;
     color: #1c0c30;
     border: 50px;
     border-bottom: 6px solid #723ec4;
@@ -32,4 +41,9 @@ body {
 
 .border-blue {
     border: 1px dotted blue;
+}
+
+.card a{
+    text-decoration: none;
+    color: #1c0c30;
 }
